@@ -18,5 +18,5 @@
 #rm -rf feeds/luci/applications/luci-app-mosdns
 
 # MosDNS
-#svn export https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
-#svn export https://github.com/sbwml/luci-app-mosdns/trunk/mosdns package/mosdns
+#svn export https://github.com/sbwml/luci-app-mosdns/luci-app-mosdns package/luci-app-mosdns
+#svn export https://github.com/sbwml/luci-app-mosdns/mosdns package/mosdns
