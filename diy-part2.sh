@@ -16,7 +16,9 @@
 # 移除要替换的包
 #rm -rf feeds/packages/net/mosdns
 #rm -rf feeds/luci/applications/luci-app-mosdns
+#rm -rf feeds/packages/net/v2ray-geodata
 
-# MosDNS
-#svn export https://github.com/sbwml/luci-app-mosdns/luci-app-mosdns package/luci-app-mosdns
-#svn export https://github.com/sbwml/luci-app-mosdns/mosdns package/mosdns
+# 添加luci-app-mosdns
+#svn co https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns feeds/luci/applications/luci-app-mosdns
+#svn co https://github.com/sbwml/luci-app-mosdns/trunk/mosdns feeds/packages/net/mosdns
+#svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/v2ray-geodata feeds/packages/net/v2ray-geodata
